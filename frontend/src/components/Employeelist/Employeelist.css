@@ -1,0 +1,110 @@
+.main{
+    /* background-color: #; */
+    color: black;
+}
+
+.list{
+    padding-top: 30px;
+    /* background-color: #e2e2e2; */
+    border: 3px solid #e2e2e2;
+    height: 100vh;
+}
+
+.list-table-format{
+ 
+    margin-left: 80px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr 2.5fr 1.5fr 1.5fr 1fr 1fr 2fr 2fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 17px;
+    
+}
+.list-table-format b{
+    margin-left: 20px;
+}
+.list-table-format p{
+    margin-left: 15px;
+}
+.list-table-format .title {
+    
+    background-color: #f9f9f9;
+
+}
+.list-table-format img{
+    width: 50px;
+}
+@media (max-width:600px) {
+    .list-table-format{
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 15px;
+    
+    }
+    .list-table-format .title{
+        display: none;
+    }
+    
+}
+.cursor{
+    cursor: pointer;
+    font-size: 20px;
+}
+.list-table-format .btn{
+
+
+    position: relative;
+    width: 100px;
+    background-color: blue;
+    margin-top: 5px;
+
+
+}
+.search{
+    width: 500px;
+
+    /* background-color: aqua; */
+    position: sticky;
+    margin-left: 1060px;
+    padding: 10px;
+    display: flex;
+    height: 60px;
+    
+
+}
+.search .text{
+    background-color: #ccc;
+    width: 90px;
+    padding: 6px;
+    /* margin-left: 10px; */
+    position: relative;
+
+}
+.search .input{
+    width: 400px;
+    height: 40px;
+}
+.total{
+    width: 500px;
+    height: 40px;
+    /* background-color: aqua; */
+    position: relative;
+    margin-left: 1150px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.total div{
+    padding: 10px;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+
+
+}

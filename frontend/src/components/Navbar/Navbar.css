@@ -1,0 +1,17 @@
+
+.div1 ,.div2{
+    margin-left: 150px;
+    font-size: 20px;
+    justify-content: space-between;
+    width: 300px;
+
+}
+li{
+    cursor: pointer;
+    margin-left: 80px;
+}
+nav{
+    background-color: #ccc;
+    color:black;
+    font-weight: 600;
+}
